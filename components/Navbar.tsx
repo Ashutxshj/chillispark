@@ -18,11 +18,17 @@ const chevron = (
   </svg>
 );
 
-function DropIcon() {
+const DROP_ICONS = [
+  "/icons/shuffle-circle.png",
+  "/icons/pin.png",
+  "/icons/image.png",
+];
+
+function DropIcon({ index = 0 }: { index?: number }) {
   return (
     <span className="flex-none w-8 h-8 rounded-lg bg-[#F0EFFB] flex items-center justify-center">
       <Image
-        src="/icons/shuffle-circle.png"
+        src={DROP_ICONS[index % DROP_ICONS.length]}
         alt=""
         width={20}
         height={20}
@@ -129,9 +135,9 @@ export default function Navbar() {
                     ["What We Value", "Honest, results-driven work", "/about"],
                     ["How We Work", "A simple, proven process", "/services"],
                     ["Get a Quote", "Free, no-pressure estimate", "/contact"],
-                  ].map(([t, d, href]) => (
+                  ].map(([t, d, href], i) => (
                     <Link key={t} href={href} className="cs-drow">
-                      <DropIcon />
+                      <DropIcon index={i} />
                       <span>
                         <span className="block font-semibold text-[15px] text-ink">
                           {t}
@@ -171,9 +177,9 @@ export default function Navbar() {
                     "E-commerce",
                     "Maintenance",
                     "SEO Foundation",
-                  ].map((s) => (
+                  ].map((s, i) => (
                     <Link key={s} href="/services" className="cs-drow">
-                      <DropIcon />
+                      <DropIcon index={i} />
                       <span className="font-semibold text-[14.5px] text-ink">
                         {s}
                       </span>
@@ -207,9 +213,9 @@ export default function Navbar() {
                     ["burnt?", "Email deliverability tool"],
                     ["All projects", "See every launch"],
                     ["Your project?", "Start a conversation"],
-                  ].map(([t, d]) => (
+                  ].map(([t, d], i) => (
                     <Link key={t} href="/work" className="cs-drow">
-                      <DropIcon />
+                      <DropIcon index={i} />
                       <span>
                         <span className="block font-semibold text-[15px] text-ink">
                           {t}
