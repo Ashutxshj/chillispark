@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+:root {
+  --accent: #5b46f0;
+  --ink: #0b0b0f;
+}
+
+@theme inline {
+  --font-sans: var(--font-bricolage), system-ui, sans-serif;
+  --color-accent: var(--accent);
+  --color-ink: var(--ink);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: var(--ink);
+  font-family: var(--font-bricolage), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+@keyframes csfloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes csmarquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.cs-marquee {
+  animation: csmarquee linear infinite;
+}
+.cs-marquee:hover {
+  animation-play-state: paused;
+}
+
+.cs-float {
+  animation: csfloat 5s ease-in-out infinite;
+}
+.cs-float-slow {
+  animation: csfloat 6s ease-in-out infinite;
+}
+
+/* portfolio / marquee cards */
+.cs-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.cs-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 50px rgba(15, 15, 30, 0.12);
+}
+
+/* navbar link hover */
+.cs-lnk:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* nav dropdowns (desktop hover) */
+.cs-item {
+  position: relative;
+}
+.cs-drop {
+  position: absolute;
+  top: 100%;
+  padding-top: 16px;
+  z-index: 90;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+.cs-item:hover .cs-drop {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.cs-drop-c {
+  left: 50%;
+  transform: translate(-50%, 10px);
+}
+.cs-item:hover .cs-drop-c {
+  transform: translate(-50%, 0);
+}
+.cs-drop-l {
+  left: 0;
+  transform: translateY(10px);
+}
+.cs-item:hover .cs-drop-l {
+  transform: translateY(0);
+}
+.cs-drop-r {
+  right: 0;
+  transform: translateY(10px);
+}
+.cs-item:hover .cs-drop-r {
+  transform: translateY(0);
+}
+
+.cs-drow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-family: inherit;
+  text-decoration: none;
+}
+.cs-drow:hover {
+  background: #f3f2fb;
+}
+
+/* subtle grid overlay used across purple sections */
+.cs-grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 58px 58px;
+  pointer-events: none;
+}
