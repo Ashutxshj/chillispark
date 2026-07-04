@@ -493,6 +493,6 @@ Until these are set, the form shows a friendly "not set up yet" message; call/Wh
 
 ## Placeholders to replace before launch
 
-- Phone number `+91 98765 43210` and WhatsApp link (`lib/data.ts`)
+- Phone numbers `+91 93107 51433` / `+91 98114 33793` and WhatsApp link (`lib/data.ts`)
 - Testimonials and stats in `lib/data.ts` (currently concept content)
 - Instagram/LinkedIn footer links (`components/Footer.tsx`)

@@ -1,5 +1,13 @@
 import Link from "next/link";
-import { EMAIL, PHONE, PHONE_DISPLAY, WHATSAPP_URL } from "@/lib/data";
+import {
+  EMAIL,
+  EMAIL_2,
+  PHONE,
+  PHONE_2,
+  PHONE_2_DISPLAY,
+  PHONE_DISPLAY,
+  WHATSAPP_URL,
+} from "@/lib/data";
 
 export default function Footer() {
   return (
@@ -51,10 +59,22 @@ export default function Footer() {
             {PHONE_DISPLAY}
           </a>
           <a
+            href={`tel:${PHONE_2}`}
+            className="block text-[#6B6B76] text-[15px] mb-3 no-underline hover:text-ink"
+          >
+            {PHONE_2_DISPLAY}
+          </a>
+          <a
             href={`mailto:${EMAIL}`}
             className="block text-[#6B6B76] text-[15px] mb-3 no-underline hover:text-ink"
           >
             {EMAIL}
+          </a>
+          <a
+            href={`mailto:${EMAIL_2}`}
+            className="block text-[#6B6B76] text-[15px] mb-3 no-underline hover:text-ink"
+          >
+            {EMAIL_2}
           </a>
           <a
             href={WHATSAPP_URL}

@@ -1,7 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { EMAIL, PHONE, PHONE_DISPLAY, WHATSAPP_URL } from "@/lib/data";
+import {
+  EMAIL,
+  EMAIL_2,
+  PHONE,
+  PHONE_2,
+  PHONE_2_DISPLAY,
+  PHONE_DISPLAY,
+  WHATSAPP_URL,
+} from "@/lib/data";
 
 type Status = "idle" | "sending" | "sent" | "error";
 
@@ -77,6 +85,27 @@ export default function ContactBlock() {
               </span>
             </a>
             <a
+              href={`tel:${PHONE_2}`}
+              className="flex items-center gap-3.5 bg-[#16161C] border border-[#24242C] rounded-[14px] px-5 py-4 no-underline"
+            >
+              <span className="w-10 h-10 rounded-[10px] bg-accent flex items-center justify-center">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 5c0 8 7 15 15 15l2.5-3.5-4.5-2-1.5 2c-3-1.2-5.8-4-7-7l2-1.5-2-4.5L4 5z"
+                    stroke="#fff"
+                    strokeWidth="1.7"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+              <span>
+                <span className="block text-[#8A8A96] text-[13px]">Call us</span>
+                <span className="text-white font-semibold text-base">
+                  {PHONE_2_DISPLAY}
+                </span>
+              </span>
+            </a>
+            <a
               href={WHATSAPP_URL}
               className="flex items-center gap-3.5 bg-[#16161C] border border-[#24242C] rounded-[14px] px-5 py-4 no-underline"
             >
@@ -113,6 +142,31 @@ export default function ContactBlock() {
               <span>
                 <span className="block text-[#8A8A96] text-[13px]">Email</span>
                 <span className="text-white font-semibold text-base">{EMAIL}</span>
+              </span>
+            </a>
+            <a
+              href={`mailto:${EMAIL_2}`}
+              className="flex items-center gap-3.5 bg-[#16161C] border border-[#24242C] rounded-[14px] px-5 py-4 no-underline"
+            >
+              <span className="w-10 h-10 rounded-[10px] bg-[#24242C] flex items-center justify-center">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <rect
+                    x="3"
+                    y="5"
+                    width="18"
+                    height="14"
+                    rx="2"
+                    stroke="#fff"
+                    strokeWidth="1.7"
+                  />
+                  <path d="m4 7 8 6 8-6" stroke="#fff" strokeWidth="1.7" />
+                </svg>
+              </span>
+              <span>
+                <span className="block text-[#8A8A96] text-[13px]">Email</span>
+                <span className="text-white font-semibold text-base">
+                  {EMAIL_2}
+                </span>
               </span>
             </a>
           </div>
