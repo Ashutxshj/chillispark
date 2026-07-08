@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { PHONE, industries } from "@/lib/data";
 
 export default function Hero() {
@@ -27,9 +28,20 @@ export default function Hero() {
             </p>
             <div className="flex items-center gap-4 mt-[34px]">
               <div className="flex">
-                <span className="w-[42px] h-[42px] rounded-full bg-[#C9C4F3] border-[3px] border-white" />
-                <span className="w-[42px] h-[42px] rounded-full bg-[#A79FEF] border-[3px] border-white -ml-3.5" />
-                <span className="w-[42px] h-[42px] rounded-full bg-[#7C71EC] border-[3px] border-white -ml-3.5" />
+                {["avatar-17", "avatar-21", "avatar-19"].map((a, i) => (
+                  <span
+                    key={a}
+                    className={`relative w-[42px] h-[42px] rounded-full border-[3px] border-white overflow-hidden bg-[#C9C4F3] ${i > 0 ? "-ml-3.5" : ""}`}
+                  >
+                    <Image
+                      src={`/testimonials/${a}.png`}
+                      alt="Happy ChilliSpark client"
+                      fill
+                      sizes="42px"
+                      className="object-cover"
+                    />
+                  </span>
+                ))}
               </div>
               <span className="text-white text-[15.5px] font-medium">
                 Trusted by local businesses

@@ -3,6 +3,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GetStartedWidget from "@/components/GetStartedWidget";
 import { SITE_URL } from "@/lib/data";
 
 const bricolage = Bricolage_Grotesque({
@@ -48,6 +49,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <GetStartedWidget />
       </body>
     </html>
   );

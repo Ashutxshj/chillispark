@@ -86,15 +86,12 @@ export default function Footer() {
       </div>
       <div className="max-w-[1120px] mx-auto mt-14 px-[26px] py-[22px] border-t border-[#EEE] flex justify-between items-center flex-wrap gap-3.5">
         <div className="flex gap-[22px]">
-          {["Instagram", "LinkedIn", "WhatsApp"].map((s) => (
-            <a
-              key={s}
-              href={s === "WhatsApp" ? WHATSAPP_URL : "#"}
-              className="text-[#6B6B76] text-sm no-underline hover:text-ink"
-            >
-              {s}
-            </a>
-          ))}
+          <a
+            href={WHATSAPP_URL}
+            className="text-[#6B6B76] text-sm no-underline hover:text-ink"
+          >
+            WhatsApp
+          </a>
         </div>
         <span className="text-[#9A9AA4] text-sm">
           ChilliSpark © {new Date().getFullYear()} · Delhi, India
