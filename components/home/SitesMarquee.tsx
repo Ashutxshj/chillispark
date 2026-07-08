@@ -1,16 +1,21 @@
 import Image from "next/image";
 import { BrowserDots } from "@/components/BrowserFrame";
-import { portfolio } from "@/lib/data";
+
+const shots = [
+  { src: "/marquee/site-1.png", alt: "Aesthete: minimalist ecommerce storefront", key: "aesthete-hero" },
+  { src: "/marquee/site-2.png", alt: "Rosebud: botanicals shop hero", key: "rosebud-hero" },
+  { src: "/marquee/site-3.png", alt: "Rosebud: curated plant catalog", key: "rosebud-catalog" },
+  { src: "/marquee/site-4.png", alt: "Aurum: luxury collection hero", key: "aurum-hero" },
+  { src: "/marquee/site-5.png", alt: "Aurum: brand philosophy", key: "aurum-philosophy" },
+  { src: "/marquee/site-6.png", alt: "Aurum: gifting experience", key: "aurum-gifting" },
+  { src: "/marquee/site-7.png", alt: "Nocturne Atelier: brand story", key: "nocturne-story" },
+  { src: "/marquee/site-8.png", alt: "Nocturne Atelier: streetwear hero", key: "nocturne-hero" },
+  { src: "/marquee/site-9.png", alt: "Skincare boutique product grid", key: "skincare-grid" },
+  { src: "/marquee/site-10.png", alt: "The Treasury: game store hero", key: "treasury-hero" },
+  { src: "/marquee/site-11.png", alt: "The Treasury: games library", key: "treasury-library" },
+];
 
 export default function SitesMarquee() {
-  const shots = portfolio.flatMap((pf) => [
-    { src: pf.image, alt: `${pf.name} website`, key: `${pf.slug}-main` },
-    ...pf.shots.map((s, i) => ({
-      src: s.src,
-      alt: `${pf.name}: ${s.label}`,
-      key: `${pf.slug}-${i}`,
-    })),
-  ]);
   const loop = [...shots, ...shots];
 
   return (
