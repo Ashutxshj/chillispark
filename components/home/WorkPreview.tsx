@@ -27,10 +27,10 @@ export default function WorkPreview() {
           </div>
         </div>
         <div className="cs-float absolute -left-1.5 top-[38%] bg-white px-[18px] py-3 rounded-[14px] shadow-[0_14px_34px_rgba(20,18,50,.14)] font-semibold text-[15px] rotate-[-6deg]">
-          📈 2× more leads
+          2× more leads
         </div>
         <div className="cs-float-slow absolute -right-2 bottom-[16%] bg-white px-[18px] py-3 rounded-[14px] shadow-[0_14px_34px_rgba(20,18,50,.14)] font-semibold text-[15px] rotate-[7deg]">
-          ⚡ Loads in 1.4s
+          Loads in 1.4s
         </div>
       </div>
 

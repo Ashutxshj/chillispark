@@ -1,7 +1,5 @@
 import { why } from "@/lib/data";
 
-const icons = ["🎨", "📱", "⚡", "🔍", "💸", "🤝"];
-
 export default function WhyChoose() {
   return (
     <section className="py-6">
@@ -32,14 +30,9 @@ export default function WhyChoose() {
                 key={w.title}
                 className="group bg-white/10 border border-white/25 backdrop-blur-[2px] rounded-[20px] p-7 transition-colors duration-300 hover:bg-white hover:border-white"
               >
-                <div className="flex items-start justify-between">
-                  <span className="font-extrabold text-[26px] leading-none text-white/70 transition-colors duration-300 group-hover:text-accent">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span className="text-[28px] leading-none grayscale brightness-[1.7] transition-[filter] duration-300 group-hover:grayscale-0 group-hover:brightness-100">
-                    {icons[i]}
-                  </span>
-                </div>
+                <span className="block font-extrabold text-[26px] leading-none text-white/70 transition-colors duration-300 group-hover:text-accent">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
                 <h3 className="font-bold uppercase tracking-[.04em] text-white text-[17px] mt-9 mb-2 transition-colors duration-300 group-hover:text-ink">
                   {w.title}
                 </h3>

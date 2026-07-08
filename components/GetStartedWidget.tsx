@@ -30,7 +30,7 @@ export default function GetStartedWidget() {
               </span>
             </div>
             <p className="relative text-white font-extrabold text-[22px] leading-tight mt-4 mb-0">
-              Hi 👋 Ready to win more customers?
+              Ready to win more customers?
             </p>
             <p className="relative text-white/85 text-sm leading-snug mt-2 mb-0">
               Tell us about your business and we&apos;ll get your website
@@ -45,8 +45,15 @@ export default function GetStartedWidget() {
               rel="noopener noreferrer"
               className="flex items-center gap-3 border border-[#E9E9F0] rounded-2xl px-4 py-3 no-underline hover:bg-[#F5F5F9] transition-colors"
             >
-              <span className="w-9 h-9 rounded-full bg-[#E7F8EC] flex items-center justify-center text-[17px]">
-                💬
+              <span className="w-9 h-9 rounded-full bg-[#E7F8EC] flex items-center justify-center">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M21 12a8 8 0 0 1-8 8H4l1.5-3A8 8 0 1 1 21 12z"
+                    stroke="#1E9E55"
+                    strokeWidth="1.8"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </span>
               <span>
                 <span className="block text-ink font-bold text-sm">
@@ -61,8 +68,15 @@ export default function GetStartedWidget() {
               href={`tel:${PHONE}`}
               className="flex items-center gap-3 border border-[#E9E9F0] rounded-2xl px-4 py-3 no-underline hover:bg-[#F5F5F9] transition-colors"
             >
-              <span className="w-9 h-9 rounded-full bg-[#EEECFD] flex items-center justify-center text-[17px]">
-                📞
+              <span className="w-9 h-9 rounded-full bg-[#EEECFD] flex items-center justify-center">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 5c0 8 7 15 15 15l2.5-3.5-4.5-2-1.5 2c-3-1.2-5.8-4-7-7l2-1.5-2-4.5L4 5z"
+                    stroke="#5B46F0"
+                    strokeWidth="1.8"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </span>
               <span>
                 <span className="block text-ink font-bold text-sm">
@@ -78,8 +92,16 @@ export default function GetStartedWidget() {
               onClick={() => setOpen(false)}
               className="flex items-center gap-3 border border-[#E9E9F0] rounded-2xl px-4 py-3 no-underline hover:bg-[#F5F5F9] transition-colors"
             >
-              <span className="w-9 h-9 rounded-full bg-[#FDF0EC] flex items-center justify-center text-[17px]">
-                ✨
+              <span className="w-9 h-9 rounded-full bg-[#FDF0EC] flex items-center justify-center">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6z"
+                    stroke="#D2542F"
+                    strokeWidth="1.8"
+                    strokeLinejoin="round"
+                  />
+                  <circle cx="12" cy="12" r="2.6" stroke="#D2542F" strokeWidth="1.8" />
+                </svg>
               </span>
               <span>
                 <span className="block text-ink font-bold text-sm">
