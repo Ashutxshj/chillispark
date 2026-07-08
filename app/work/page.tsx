@@ -105,7 +105,7 @@ export default function WorkPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2.5 bg-ink text-white font-bold text-[15px] px-6 py-[13px] rounded-full no-underline"
+              className="cs-btn-dark inline-flex items-center gap-2.5 bg-ink text-white font-bold text-[15px] px-6 py-[13px] rounded-full no-underline"
             >
               Start your project
               <span className="w-[22px] h-[22px] rounded-full bg-accent inline-flex items-center justify-center">

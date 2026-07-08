@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { PHONE, industries } from "@/lib/data";
+import { industries } from "@/lib/data";
 
 export default function Hero() {
   return (
@@ -50,24 +50,6 @@ export default function Hero() {
                 <br />
                 across <strong className="font-bold">Delhi NCR</strong>
               </span>
-            </div>
-          </div>
-          <div className="text-right">
-            <div className="flex gap-3 justify-end flex-wrap">
-              <a
-                href={`tel:${PHONE}`}
-                className="inline-flex items-center gap-2.5 bg-white/15 border border-white/35 text-white font-semibold text-base px-6 py-[13px] rounded-full no-underline"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M4 5c0 8 7 15 15 15l2.5-3.5-4.5-2-1.5 2c-3-1.2-5.8-4-7-7l2-1.5-2-4.5L4 5z"
-                    stroke="#fff"
-                    strokeWidth="1.7"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                Call us
-              </a>
             </div>
           </div>
         </div>

@@ -67,7 +67,7 @@ function PromoPanel({
       </div>
       <Link
         href={href}
-        className="mt-[18px] self-start inline-flex items-center gap-2 bg-white text-ink font-bold text-[13px] px-4 py-2.5 rounded-full no-underline"
+        className="cs-btn-light mt-[18px] self-start inline-flex items-center gap-2 bg-white text-ink font-bold text-[13px] px-4 py-2.5 rounded-full no-underline"
       >
         {cta}
       </Link>
@@ -242,9 +242,9 @@ export default function Navbar() {
           <div className="cs-item hidden sm:block">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-[9px] bg-white text-ink font-bold text-[15.5px] px-[22px] py-[11px] rounded-full no-underline"
+              className="cs-btn-light inline-flex items-center gap-[9px] bg-white text-ink font-bold text-[15.5px] px-[22px] py-[11px] rounded-full no-underline"
             >
-              Get Started
+              Contact us
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
                 <path
                   d="m6 9 6 6 6-6"
@@ -325,7 +325,7 @@ export default function Navbar() {
           <button
             aria-label={open ? "Close menu" : "Open menu"}
             onClick={() => setOpen((v) => !v)}
-            className="lg:hidden flex items-center justify-center w-11 h-11 rounded-full bg-white/15 border border-white/30 text-white cursor-pointer"
+            className="cs-btn-ghost lg:hidden flex items-center justify-center w-11 h-11 rounded-full bg-white/15 border border-white/30 text-white cursor-pointer"
           >
             {open ? (
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none">

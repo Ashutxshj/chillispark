@@ -136,6 +136,38 @@ body {
   background: #f3f2fb;
 }
 
+/* lit buttons: light comes from the sky — brighter top, darker bottom edge,
+   inner top highlight, shadow cast below; pressed state sinks and dims */
+.cs-btn-dark {
+  background-image: linear-gradient(180deg, #262631 0%, #0b0b0f 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.16),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.5),
+    0 4px 10px rgba(11, 11, 15, 0.28);
+}
+.cs-btn-light {
+  background-image: linear-gradient(180deg, #ffffff 0%, #ececf3 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -1px 0 rgba(15, 15, 30, 0.14),
+    0 4px 12px rgba(15, 15, 30, 0.2);
+}
+.cs-btn-ghost {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.09));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.18),
+    0 4px 10px rgba(15, 15, 30, 0.16);
+}
+.cs-btn-dark:active,
+.cs-btn-light:active,
+.cs-btn-ghost:active {
+  transform: translateY(1px);
+  box-shadow:
+    inset 0 1px 2px rgba(0, 0, 0, 0.18),
+    0 1px 3px rgba(15, 15, 30, 0.15);
+}
+
 /* hero background: zoomed cloud gif on desktop, full cover on mobile */
 .cs-hero-bg {
   background-image: linear-gradient(178deg, rgba(96, 84, 240, 0.58) 0%, rgba(139, 131, 244, 0.42) 46%, rgba(200, 195, 242, 0.66) 100%),

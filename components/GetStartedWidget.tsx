@@ -39,22 +39,6 @@ export default function GetStartedWidget() {
           </div>
 
           <div className="p-4 flex flex-col gap-2.5">
-            <Link
-              href="/contact"
-              onClick={() => setOpen(false)}
-              className="flex items-center justify-center gap-2.5 bg-ink text-white font-bold text-[15px] py-3 rounded-full no-underline hover:opacity-90 transition-opacity"
-            >
-              Get Started
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                <path
-                  d="M7 17 17 7M8 7h9v9"
-                  stroke="#fff"
-                  strokeWidth="2.4"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </Link>
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -115,7 +99,7 @@ export default function GetStartedWidget() {
         aria-label={open ? "Close Get Started panel" : "Open Get Started panel"}
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex items-center gap-3 bg-white text-ink font-bold text-base py-3 pl-6 pr-3 rounded-full cursor-pointer border-none shadow-[0_14px_34px_rgba(15,15,30,.25)] hover:scale-[1.03] transition-transform"
+        className="cs-btn-light inline-flex items-center gap-3 bg-white text-ink font-bold text-base py-3 pl-6 pr-3 rounded-full cursor-pointer border-none hover:scale-[1.03] transition-transform"
       >
         Get Started
         <span className="w-[34px] h-[34px] rounded-full bg-ink inline-flex items-center justify-center">

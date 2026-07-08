@@ -256,7 +256,7 @@ export default function ContactBlock() {
               <button
                 type="submit"
                 disabled={status === "sending"}
-                className="w-full inline-flex items-center justify-center gap-2.5 bg-ink text-white font-bold text-base py-[15px] rounded-full border-none cursor-pointer disabled:opacity-60"
+                className="cs-btn-dark w-full inline-flex items-center justify-center gap-2.5 bg-ink text-white font-bold text-base py-[15px] rounded-full border-none cursor-pointer disabled:opacity-60"
               >
                 {status === "sending" ? "Sending..." : "Send message"}
                 <span className="w-6 h-6 rounded-full bg-accent inline-flex items-center justify-center">

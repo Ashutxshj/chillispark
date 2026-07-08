@@ -20,8 +20,7 @@ export default function WhyChoose() {
           <div className="relative grid gap-5 md:grid-cols-2 xl:grid-cols-4">
             <div className="md:col-span-2 flex flex-col justify-center pr-2 pb-4 xl:pb-0">
               <h2 className="font-extrabold text-white text-[clamp(32px,4.2vw,52px)] leading-[1.02] tracking-[-0.02em] m-0">
-                Why choose ChilliSpark
-                <span className="text-ink">?</span>
+                Why choose ChilliSpark?
               </h2>
               <p className="text-white/90 text-lg mt-5 mb-0 max-w-[440px]">
                 Benefits your customers feel, not features you have to

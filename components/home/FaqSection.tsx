@@ -25,7 +25,7 @@ export default function FaqSection() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2.5 bg-ink text-white font-bold text-[15px] px-[26px] py-[13px] rounded-full no-underline"
+            className="cs-btn-dark inline-flex items-center gap-2.5 bg-ink text-white font-bold text-[15px] px-[26px] py-[13px] rounded-full no-underline"
           >
             Contact Us
           </Link>
