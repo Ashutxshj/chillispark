@@ -105,7 +105,14 @@ export default function Navbar() {
             : "py-5 px-[26px] bg-transparent flex-wrap"
         }`}
       >
-        <Link href="/" className="flex items-center no-underline">
+        <Link href="/" className="flex items-center gap-2 no-underline">
+          <Image
+            src="/logo.png"
+            alt="ChilliSpark logo"
+            width={34}
+            height={29}
+            className="brightness-0 invert"
+          />
           <span className="font-bold text-[23px] text-white tracking-[-0.01em]">
             ChilliSpark
           </span>
