@@ -3,16 +3,7 @@ import { PHONE, industries } from "@/lib/data";
 
 export default function Hero() {
   return (
-    <section
-      className="relative overflow-hidden pt-[170px] pb-[90px]"
-      style={{
-        backgroundImage:
-          "linear-gradient(178deg,rgba(96,84,240,.58) 0%,rgba(139,131,244,.42) 46%,rgba(200,195,242,.66) 100%),url('https://i.pinimg.com/originals/3a/d1/99/3ad1994219dac9084a110deae2447fec.gif'),linear-gradient(178deg,#6E62F6 0%,#8B83F4 46%,#C8C3F2 100%)",
-        backgroundSize: "cover,180%,cover",
-        backgroundPosition: "center,center,center",
-        backgroundRepeat: "no-repeat,no-repeat,no-repeat",
-      }}
-    >
+    <section className="cs-hero-bg relative overflow-hidden pt-[170px] pb-[90px]">
       <div
         className="cs-grid-overlay"
         style={{

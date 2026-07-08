@@ -136,6 +136,21 @@ body {
   background: #f3f2fb;
 }
 
+/* hero background: zoomed cloud gif on desktop, full cover on mobile */
+.cs-hero-bg {
+  background-image: linear-gradient(178deg, rgba(96, 84, 240, 0.58) 0%, rgba(139, 131, 244, 0.42) 46%, rgba(200, 195, 242, 0.66) 100%),
+    url("https://i.pinimg.com/originals/3a/d1/99/3ad1994219dac9084a110deae2447fec.gif"),
+    linear-gradient(178deg, #6e62f6 0%, #8b83f4 46%, #c8c3f2 100%);
+  background-size: cover, 180%, cover;
+  background-position: center, center, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+@media (max-width: 768px) {
+  .cs-hero-bg {
+    background-size: cover, cover, cover;
+  }
+}
+
 /* subtle grid overlay used across purple sections */
 .cs-grid-overlay {
   position: absolute;
