@@ -216,8 +216,6 @@ export default function Navbar() {
                 />
                 <div className="p-2.5">
                   {[
-                    ["Ekosight", "AgriTech platform for farmers"],
-                    ["burnt?", "Email deliverability tool"],
                     ["All projects", "See every launch"],
                     ["Your project?", "Start a conversation"],
                   ].map(([t, d], i) => (
