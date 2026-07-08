@@ -18,7 +18,7 @@ export default function WhyChoose() {
           />
           <div className="relative text-center max-w-[760px] mx-auto mb-[52px]">
             <h2 className="font-extrabold text-white text-[clamp(32px,4.6vw,56px)] leading-none tracking-[-0.02em] m-0">
-              Why choose ChilliSpark
+              Why choose ChilliSpark?
             </h2>
             <p className="text-white/90 text-lg mt-[18px] mb-0">
               Benefits your customers feel, not features you have to
