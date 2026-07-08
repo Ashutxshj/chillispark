@@ -34,7 +34,7 @@ export default function GetStartedWidget() {
             </p>
             <p className="relative text-white/85 text-sm leading-snug mt-2 mb-0">
               Tell us about your business and we&apos;ll get your website
-              moving — fast, modern, and affordable.
+              moving. Fast, modern, and affordable.
             </p>
           </div>
 
@@ -115,28 +115,31 @@ export default function GetStartedWidget() {
         aria-label={open ? "Close Get Started panel" : "Open Get Started panel"}
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="w-[58px] h-[58px] rounded-full bg-[#6E62F6] shadow-[0_14px_34px_rgba(110,98,246,.45)] flex items-center justify-center cursor-pointer border-none hover:scale-105 transition-transform"
+        className="inline-flex items-center gap-3 bg-white text-ink font-bold text-base py-3 pl-6 pr-3 rounded-full cursor-pointer border-none shadow-[0_14px_34px_rgba(15,15,30,.25)] hover:scale-[1.03] transition-transform"
       >
-        {open ? (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-            <path
-              d="M6 6l12 12M18 6 6 18"
-              stroke="#fff"
-              strokeWidth="2.6"
-              strokeLinecap="round"
-            />
-          </svg>
-        ) : (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path
-              d="M13 2 4.5 13.5H11L9.5 22 19 10h-6.5L13 2z"
-              fill="#fff"
-              stroke="#fff"
-              strokeWidth="1.4"
-              strokeLinejoin="round"
-            />
-          </svg>
-        )}
+        Get Started
+        <span className="w-[34px] h-[34px] rounded-full bg-ink inline-flex items-center justify-center">
+          {open ? (
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M6 6l12 12M18 6 6 18"
+                stroke="#fff"
+                strokeWidth="2.6"
+                strokeLinecap="round"
+              />
+            </svg>
+          ) : (
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M7 17 17 7M8 7h9v9"
+                stroke="#fff"
+                strokeWidth="2.4"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          )}
+        </span>
       </button>
     </div>
   );

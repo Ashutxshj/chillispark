@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import { PHONE, industries } from "@/lib/data";
 
@@ -55,23 +54,6 @@ export default function Hero() {
           </div>
           <div className="text-right">
             <div className="flex gap-3 justify-end flex-wrap">
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-3 bg-white text-ink font-bold text-base py-3 pl-6 pr-3 rounded-full no-underline"
-              >
-                Get Started
-                <span className="w-[34px] h-[34px] rounded-full bg-ink inline-flex items-center justify-center">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                    <path
-                      d="M7 17 17 7M8 7h9v9"
-                      stroke="#fff"
-                      strokeWidth="2.4"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-              </Link>
               <a
                 href={`tel:${PHONE}`}
                 className="inline-flex items-center gap-2.5 bg-white/15 border border-white/35 text-white font-semibold text-base px-6 py-[13px] rounded-full no-underline"
