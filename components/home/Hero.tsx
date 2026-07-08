@@ -15,6 +15,9 @@ export default function Hero() {
         }}
       />
       <div className="relative z-[2] max-w-[1200px] mx-auto px-[26px]">
+        <p className="text-white/90 font-medium text-[clamp(18px,2.2vw,28px)] tracking-[.01em] m-0 mb-4">
+          We build you
+        </p>
         <h1 className="font-extrabold text-white uppercase leading-[.88] tracking-[-0.025em] text-[clamp(38px,9.6vw,148px)] m-0">
           <span className="block">Websites that</span>
           <span className="block text-right">win customers</span>
