@@ -111,20 +111,6 @@ export const portfolio: PortfolioItem[] = [
       { src: "/work/ekosight-trust.png", label: "Institutional trust & partners" },
     ],
   },
-  {
-    slug: "burnt",
-    type: "SaaS · Email Tool",
-    name: "burnt?",
-    domain: "ismymailboxburnt.com",
-    result:
-      "Free 60-second mailbox deliverability diagnostic for cold email teams. 52 checks across authentication, blacklists and send behavior.",
-    image: "/work/burnt-hero.png",
-    shots: [
-      { src: "/work/burnt-checks.png", label: "Everything we check" },
-      { src: "/work/burnt-process.png", label: "Concern to fix list in 2 minutes" },
-      { src: "/work/burnt-footer.png", label: "FAQ & resources" },
-    ],
-  },
 ];
 
 export const faqs = [

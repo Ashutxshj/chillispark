@@ -129,7 +129,7 @@ export default function Navbar() {
               About {chevron}
             </Link>
             <div className="cs-drop cs-drop-l w-[540px]">
-              <div className="bg-white rounded-[18px] shadow-[0_30px_70px_rgba(15,15,30,.22)] border border-[#EEE] overflow-hidden grid grid-cols-[200px_1fr]">
+              <div className="cs-panel-lit bg-white rounded-[18px] border border-[#EEE] overflow-hidden grid grid-cols-[200px_1fr]">
                 <PromoPanel
                   title="A studio built for local growth"
                   text="Delhi-based web design & development."
@@ -169,7 +169,7 @@ export default function Navbar() {
               Services {chevron}
             </Link>
             <div className="cs-drop cs-drop-c w-[640px]">
-              <div className="bg-white rounded-[18px] shadow-[0_30px_70px_rgba(15,15,30,.22)] border border-[#EEE] overflow-hidden grid grid-cols-[200px_1fr]">
+              <div className="cs-panel-lit bg-white rounded-[18px] border border-[#EEE] overflow-hidden grid grid-cols-[200px_1fr]">
                 <PromoPanel
                   title="Everything your website needs"
                   text="Outcomes, not jargon."
@@ -206,7 +206,7 @@ export default function Navbar() {
               Our Work {chevron}
             </Link>
             <div className="cs-drop cs-drop-c w-[540px]">
-              <div className="bg-white rounded-[18px] shadow-[0_30px_70px_rgba(15,15,30,.22)] border border-[#EEE] overflow-hidden grid grid-cols-[200px_1fr]">
+              <div className="cs-panel-lit bg-white rounded-[18px] border border-[#EEE] overflow-hidden grid grid-cols-[200px_1fr]">
                 <PromoPanel
                   big
                   title="20+"
@@ -256,7 +256,7 @@ export default function Navbar() {
               </svg>
             </Link>
             <div className="cs-drop cs-drop-r w-[250px] hidden lg:block">
-              <div className="bg-white rounded-2xl shadow-[0_30px_70px_rgba(15,15,30,.22)] border border-[#EEE] p-2">
+              <div className="cs-panel-lit bg-white rounded-2xl border border-[#EEE] p-2">
                 <Link href="/contact" className="cs-drow">
                   <span className="flex-none w-[30px] h-[30px] rounded-lg bg-[#F0EFFB] flex items-center justify-center">
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
