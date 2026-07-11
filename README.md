@@ -5,6 +5,7 @@
 ChilliSpark is a modern web design and development agency focused on helping local businesses establish a professional online presence.
 
 The goal is not just to build websites, but to help businesses:
+
 - Get more customers
 - Build credibility
 - Rank better on Google
@@ -488,6 +489,7 @@ The form posts to `/api/contact`, which sends email via [Resend](https://resend.
 - `RESEND_API_KEY` — API key from Resend
 - `CONTACT_TO_EMAIL` — where inquiries are delivered
 - `CONTACT_FROM_EMAIL` — verified sender (use `onboarding@resend.dev` while testing)
+- Deployment on Vercel.
 
 Until these are set, the form shows a friendly "not set up yet" message; call/WhatsApp/email links work regardless.
 
