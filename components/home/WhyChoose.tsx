@@ -53,7 +53,7 @@ export default function WhyChoose() {
   return (
     <section className="py-6">
       <div className="max-w-[1200px] mx-auto px-[26px]">
-        <div className="relative overflow-hidden rounded-[34px] p-[clamp(32px,4.5vw,64px)] [background:radial-gradient(120%_130%_at_88%_6%,#cfc6fb_0%,#a99ef4_22%,#8a7bee_50%,#7264e8_74%,#6555df_100%)]">
+        <div className="relative overflow-hidden rounded-[34px] p-[clamp(32px,4.5vw,64px)] [background:radial-gradient(120%_130%_at_88%_6%,#d7ebff_0%,#a8d3ff_22%,#7cb6ff_50%,#4d9af7_74%,#1877f2_100%)]">
           <div
             className="absolute inset-0 pointer-events-none bg-[length:52px_52px]"
             style={{

@@ -12,7 +12,7 @@ export default function GetStartedWidget() {
     <div className="fixed bottom-5 right-5 z-[80] flex flex-col items-end gap-3.5">
       {open && (
         <div className="w-[330px] max-w-[calc(100vw-40px)] rounded-3xl overflow-hidden bg-white shadow-[0_24px_64px_rgba(15,15,30,.28)] border border-[#E9E9F0]">
-          <div className="relative bg-[linear-gradient(160deg,#6E62F6_0%,#8B83F4_60%,#A79FEF_100%)] px-6 pt-6 pb-7">
+          <div className="relative bg-[linear-gradient(160deg,#1877F2_0%,#5AA3FF_60%,#DDEEFF_100%)] px-6 pt-6 pb-7">
             <div
               className="cs-grid-overlay"
               style={{ backgroundSize: "34px 34px" }}
@@ -72,7 +72,7 @@ export default function GetStartedWidget() {
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M4 5c0 8 7 15 15 15l2.5-3.5-4.5-2-1.5 2c-3-1.2-5.8-4-7-7l2-1.5-2-4.5L4 5z"
-                    stroke="#5B46F0"
+                    stroke="#1877F2"
                     strokeWidth="1.8"
                     strokeLinejoin="round"
                   />

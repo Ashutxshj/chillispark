@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main>
-      <section className="pt-[150px] pb-10 [background:radial-gradient(1000px_460px_at_80%_10%,rgba(255,255,255,.55),transparent_60%),linear-gradient(175deg,#6E62F6,#9089F3_70%,#C8C3F2)]">
+      <section className="pt-[150px] pb-10 [background:radial-gradient(1000px_460px_at_80%_10%,rgba(255,255,255,.72),transparent_60%),linear-gradient(175deg,#1877F2,#5AA3FF_70%,#DDEEFF)]">
         <div className="max-w-[1000px] mx-auto px-[26px]">
           <h1 className="font-extrabold text-white text-[clamp(40px,7vw,90px)] leading-[.95] tracking-[-0.025em] m-0">
             Let&apos;s build

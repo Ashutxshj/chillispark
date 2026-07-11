@@ -5,7 +5,7 @@ import { portfolio, stats } from "@/lib/data";
 export default function WorkPreview() {
   const featured = portfolio[0];
   return (
-    <section className="pb-20 [background:linear-gradient(180deg,#C8C3F2_0%,#F5F5F9_42%)]">
+    <section className="pb-20 [background:linear-gradient(180deg,#DDEEFF_0%,#F5F9FF_42%)]">
       <div className="max-w-[1120px] mx-auto px-[26px] relative">
         <div className="relative rounded-[22px] overflow-hidden border border-[#E6E6EE] bg-white shadow-[0_40px_90px_rgba(20,18,50,.18)] -translate-y-6">
           <div className="flex items-center gap-2 px-5 py-4 bg-ink">

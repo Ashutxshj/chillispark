@@ -3,10 +3,7 @@
 import { useState } from "react";
 import {
   EMAIL,
-  EMAIL_2,
   PHONE,
-  PHONE_2,
-  PHONE_2_DISPLAY,
   PHONE_DISPLAY,
   WHATSAPP_URL,
 } from "@/lib/data";
@@ -50,7 +47,7 @@ export default function ContactBlock() {
     <section className="bg-ink py-[90px]">
       <div className="max-w-[1120px] mx-auto px-[26px] grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
         <div>
-          <span className="text-[#9E93FF] font-bold text-sm tracking-[.06em] uppercase">
+          <span className="text-accent font-bold text-sm tracking-[.06em] uppercase">
             Get started
           </span>
           <h2 className="font-extrabold text-white text-[clamp(34px,4.6vw,58px)] leading-none tracking-[-0.02em] mt-3.5 mb-0">

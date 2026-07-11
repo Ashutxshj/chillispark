@@ -52,7 +52,7 @@ function PromoPanel({
   big?: boolean;
 }) {
   return (
-    <div className="p-[22px] flex flex-col justify-between text-white [background:radial-gradient(120%_120%_at_100%_0,rgba(255,255,255,.28),transparent),linear-gradient(160deg,#6E62F6,#8E86F3)]">
+    <div className="p-[22px] flex flex-col justify-between text-white [background:radial-gradient(120%_120%_at_100%_0,rgba(255,255,255,.3),transparent),linear-gradient(160deg,#1877F2,#5AA3FF)]">
       <div>
         <div
           className={
@@ -262,7 +262,7 @@ export default function Navbar() {
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M7 17 17 7M8 7h9v9"
-                        stroke="#5B46F0"
+                        stroke="#1877F2"
                         strokeWidth="2.2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -278,7 +278,7 @@ export default function Navbar() {
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
                       <path
                         d="M4 5c0 8 7 15 15 15l2.5-3.5-4.5-2-1.5 2c-3-1.2-5.8-4-7-7l2-1.5-2-4.5L4 5z"
-                        stroke="#5B46F0"
+                        stroke="#1877F2"
                         strokeWidth="1.6"
                         strokeLinejoin="round"
                       />
@@ -307,10 +307,10 @@ export default function Navbar() {
                         width="18"
                         height="14"
                         rx="2"
-                        stroke="#5B46F0"
+                        stroke="#1877F2"
                         strokeWidth="1.6"
                       />
-                      <path d="m4 7 8 6 8-6" stroke="#5B46F0" strokeWidth="1.6" />
+                      <path d="m4 7 8 6 8-6" stroke="#1877F2" strokeWidth="1.6" />
                     </svg>
                   </span>
                   <span className="font-semibold text-[15px] text-ink">
@@ -370,19 +370,19 @@ export default function Navbar() {
             <div className="flex gap-3 px-3 pt-2 pb-1">
               <a
                 href={`tel:${PHONE}`}
-                className="text-[#C9C4F3] font-semibold text-sm no-underline"
+                className="text-[#B7D8FF] font-semibold text-sm no-underline"
               >
                 Call us
               </a>
               <a
                 href={WHATSAPP_URL}
-                className="text-[#C9C4F3] font-semibold text-sm no-underline"
+                className="text-[#B7D8FF] font-semibold text-sm no-underline"
               >
                 WhatsApp
               </a>
               <a
                 href={`mailto:${EMAIL}`}
-                className="text-[#C9C4F3] font-semibold text-sm no-underline"
+                className="text-[#B7D8FF] font-semibold text-sm no-underline"
               >
                 Email
               </a>

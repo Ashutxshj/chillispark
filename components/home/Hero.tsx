@@ -33,7 +33,7 @@ export default function Hero() {
                 {["avatar-17", "avatar-21", "avatar-19"].map((a, i) => (
                   <span
                     key={a}
-                    className={`relative w-[42px] h-[42px] rounded-full border-[3px] border-white overflow-hidden bg-[#C9C4F3] ${i > 0 ? "-ml-3.5" : ""}`}
+                    className={`relative w-[42px] h-[42px] rounded-full border-[3px] border-white overflow-hidden bg-[#DDEEFF] ${i > 0 ? "-ml-3.5" : ""}`}
                   >
                     <Image
                       src={`/testimonials/${a}.png`}

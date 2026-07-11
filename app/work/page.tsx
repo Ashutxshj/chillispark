@@ -95,7 +95,7 @@ export default function WorkPage() {
           ))}
 
           {/* your project next */}
-          <div className="rounded-[22px] border border-dashed border-[#C9C4F3] bg-[#FAFAFE] p-10 text-center">
+          <div className="rounded-[22px] border border-dashed border-[#B7D8FF] bg-[#FAFAFE] p-10 text-center">
             <h3 className="font-extrabold text-[clamp(24px,3vw,34px)] tracking-[-0.02em] mt-0 mb-2">
               Your website could be next.
             </h3>

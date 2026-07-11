@@ -1,10 +1,7 @@
 import Link from "next/link";
 import {
   EMAIL,
-  EMAIL_2,
   PHONE,
-  PHONE_2,
-  PHONE_2_DISPLAY,
   PHONE_DISPLAY,
   WHATSAPP_URL,
 } from "@/lib/data";
@@ -59,22 +56,10 @@ export default function Footer() {
             {PHONE_DISPLAY}
           </a>
           <a
-            href={`tel:${PHONE_2}`}
-            className="block text-[#6B6B76] text-[15px] mb-3 no-underline hover:text-ink"
-          >
-            {PHONE_2_DISPLAY}
-          </a>
-          <a
             href={`mailto:${EMAIL}`}
             className="block text-[#6B6B76] text-[15px] mb-3 no-underline hover:text-ink"
           >
             {EMAIL}
-          </a>
-          <a
-            href={`mailto:${EMAIL_2}`}
-            className="block text-[#6B6B76] text-[15px] mb-3 no-underline hover:text-ink"
-          >
-            {EMAIL_2}
           </a>
           <a
             href={WHATSAPP_URL}
@@ -98,7 +83,7 @@ export default function Footer() {
         </span>
       </div>
       <div className="overflow-hidden leading-none mt-5">
-        <div className="font-extrabold text-[clamp(70px,18vw,280px)] text-[#F4F3FB] text-center tracking-[-0.03em] select-none">
+        <div className="font-extrabold text-[clamp(70px,18vw,280px)] text-[#EEF5FF] text-center tracking-[-0.03em] select-none">
           ChilliSpark
         </div>
       </div>

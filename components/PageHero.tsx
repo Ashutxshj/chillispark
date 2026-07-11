@@ -10,12 +10,12 @@ export default function PageHero({
   wide?: boolean;
 }) {
   return (
-    <section className="relative overflow-hidden pt-40 pb-20 [background:radial-gradient(1000px_460px_at_80%_10%,rgba(255,255,255,.55),transparent_60%),linear-gradient(175deg,#6E62F6,#9089F3_70%,#C8C3F2)]">
+    <section className="relative overflow-hidden pt-40 pb-20 [background:radial-gradient(1000px_460px_at_80%_10%,rgba(255,255,255,.72),transparent_60%),linear-gradient(175deg,#1877F2,#5AA3FF_70%,#DDEEFF)]">
       <div
         className={`${wide ? "max-w-[1120px]" : "max-w-[1000px]"} mx-auto px-[26px] relative`}
       >
         {badge && (
-          <span className="inline-block bg-white/15 border border-white/30 text-white font-semibold text-[13.5px] px-[15px] py-2 rounded-full">
+          <span className="inline-block bg-white/18 border border-white/35 text-white font-semibold text-[13.5px] px-[15px] py-2 rounded-full">
             {badge}
           </span>
         )}
