@@ -1,10 +1,7 @@
-export const PHONE = "+919310751433";
-export const PHONE_DISPLAY = "+91 93107 51433";
-export const PHONE_2 = "+919811433793";
-export const PHONE_2_DISPLAY = "+91 98114 33793";
-export const WHATSAPP_URL = "https://wa.me/919310751433";
-export const EMAIL = "ashutosh06066@gmail.com";
-export const EMAIL_2 = "theabku@gmail.com";
+export const PHONE = "+918796652983";
+export const PHONE_DISPLAY = "+91 87966 52983";
+export const WHATSAPP_URL = "https://wa.me/918796652983";
+export const EMAIL = "info.chillispark@gmail.com";
 export const SITE_URL = "https://chillispark.in";
 
 export const services = [
