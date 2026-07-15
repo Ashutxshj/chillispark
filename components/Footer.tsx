@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="bg-white pt-20 border-t border-[#EEE]">
       <div className="max-w-[1120px] mx-auto px-[26px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr] gap-10">
         <div>
-          <span className="font-bold text-[21px]">ChilliSpark</span>
+          <span className="font-bold text-[21px]">Chillispark</span>
           <p className="text-[#6B6B76] text-[15px] leading-relaxed mt-[18px] mb-0 max-w-[280px]">
             Fast, modern, affordable websites that help local businesses in
             Delhi grow.
@@ -79,12 +79,12 @@ export default function Footer() {
           </a>
         </div>
         <span className="text-[#9A9AA4] text-sm">
-          ChilliSpark © {new Date().getFullYear()} · Delhi, India
+          Chillispark © {new Date().getFullYear()} · Delhi, India
         </span>
       </div>
       <div className="overflow-hidden leading-none mt-5">
         <div className="font-extrabold text-[clamp(70px,18vw,280px)] text-[#EEF5FF] text-center tracking-[-0.03em] select-none">
-          ChilliSpark
+          Chillispark
         </div>
       </div>
     </footer>

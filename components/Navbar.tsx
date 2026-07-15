@@ -108,13 +108,13 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2 no-underline">
           <Image
             src="/logo.png"
-            alt="ChilliSpark logo"
+            alt="Chillispark logo"
             width={34}
             height={29}
             className="brightness-0 invert"
           />
           <span className="font-bold text-[23px] text-white tracking-[-0.01em]">
-            ChilliSpark
+            Chillispark
           </span>
         </Link>
 

@@ -20,13 +20,13 @@ export default function GetStartedWidget() {
             <div className="relative flex items-center gap-2.5">
               <Image
                 src="/logo.png"
-                alt="ChilliSpark"
+                alt="Chillispark"
                 width={30}
                 height={30}
                 className="rounded-full bg-white p-0.5"
               />
               <span className="text-white font-extrabold text-lg tracking-tight">
-                ChilliSpark
+                Chillispark
               </span>
             </div>
             <p className="relative text-white font-extrabold text-[22px] leading-tight mt-4 mb-0">

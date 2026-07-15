@@ -108,6 +108,61 @@ export const portfolio: PortfolioItem[] = [
       { src: "/work/ekosight-trust.png", label: "Institutional trust & partners" },
     ],
   },
+  {
+    slug: "aurakeebs",
+    type: "E-commerce Store",
+    name: "AuraKeebs",
+    domain: "aurakeebs.com",
+    result:
+      "A premium mechanical-keyboard store with an interactive switch-acoustics tester, live customizer and a filterable catalogue that makes enthusiast hardware effortless to browse and buy.",
+    image: "/work/aurakeebs-hero.png",
+    shots: [
+      { src: "/work/aurakeebs-catalog.png", label: "Filterable product catalogue" },
+      { src: "/work/aurakeebs-products.png", label: "Keycaps & switches grid" },
+    ],
+  },
+  {
+    slug: "coverle",
+    type: "SaaS Web App",
+    name: "CoverLe",
+    domain: "coverle.app",
+    result:
+      "A free student tool that turns academic formatting into a thirty-second task, fill a form, preview live and export watermark-free PDFs for assignments, resumes, certificates and theses.",
+    image: "/work/coverle-hero.png",
+    shots: [
+      { src: "/work/coverle-tools.png", label: "Every document tool in one grid" },
+      { src: "/work/coverle-features.png", label: "Why students choose it" },
+      { src: "/work/coverle-faq.png", label: "FAQ & footer" },
+    ],
+  },
+  {
+    slug: "kinetic",
+    type: "E-commerce Store",
+    name: "Kinetic",
+    domain: "kinetic.store",
+    result:
+      "A bold, motion-driven sneaker and streetwear store with cinematic product storytelling, shop-by-category browsing and a fast, conversion-focused new-arrivals flow.",
+    image: "/work/kinetic-hero.png",
+    shots: [
+      { src: "/work/kinetic-arrivals.png", label: "Fresh-off-the-line arrivals" },
+      { src: "/work/kinetic-categories.png", label: "Shop-by-category tiles" },
+      { src: "/work/kinetic-bestsellers.png", label: "Bestseller product cards" },
+    ],
+  },
+  {
+    slug: "muskara",
+    type: "Luxury E-commerce",
+    name: "Muskara",
+    domain: "muskara.in",
+    result:
+      "A niche Indian perfumery with a five-question scent finder, mood-based shopping and a transparent sourcing ledger showing batch codes, harvest dates and origins for every fragrance.",
+    image: "/work/muskara-hero.png",
+    shots: [
+      { src: "/work/muskara-sourcing.png", label: "Transparent sourcing ledger" },
+      { src: "/work/muskara-feature.png", label: "Featured fragrance & founder note" },
+      { src: "/work/muskara-arrivals.png", label: "New arrivals collection" },
+    ],
+  },
 ];
 
 export const faqs = [

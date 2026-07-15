@@ -1,8 +1,8 @@
-# ChilliSpark – Business Plan & MVP Website Plan
+# Chillispark – Business Plan & MVP Website Plan
 
 ## Vision
 
-ChilliSpark is a modern web design and development agency focused on helping local businesses establish a professional online presence.
+Chillispark is a modern web design and development agency focused on helping local businesses establish a professional online presence.
 
 The goal is not just to build websites, but to help businesses:
 
@@ -187,11 +187,11 @@ Speak in business outcomes rather than technical language.
 
 # Website Goals
 
-The website itself should convince visitors that ChilliSpark can design professional websites.
+The website itself should convince visitors that Chillispark can design professional websites.
 
 The visitor should immediately understand:
 
-- What ChilliSpark does
+- What Chillispark does
 - Who it helps
 - Why it's different
 - Why they should trust it
@@ -219,7 +219,7 @@ Cards explaining each service.
 
 ---
 
-## Why Choose ChilliSpark
+## Why Choose Chillispark
 
 Benefits instead of features.
 
@@ -301,7 +301,7 @@ Email.
 
 # About Page
 
-Tell the story of ChilliSpark.
+Tell the story of Chillispark.
 
 Focus on helping businesses succeed online.
 
@@ -387,7 +387,7 @@ Sell:
 
 # Client Journey
 
-Visitor discovers ChilliSpark
+Visitor discovers Chillispark
 
 ↓
 
@@ -403,7 +403,7 @@ Builds trust
 
 ↓
 
-Contacts ChilliSpark
+Contacts Chillispark
 
 ↓
 

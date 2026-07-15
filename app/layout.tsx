@@ -15,8 +15,8 @@ const bricolage = Bricolage_Grotesque({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "ChilliSpark | Websites that win customers",
-    template: "%s · ChilliSpark",
+    default: "Chillispark | Websites that win customers",
+    template: "%s · Chillispark",
   },
   description:
     "Fast, modern, affordable websites that help local businesses build trust, rank on Google, and turn visitors into paying customers. Delhi-based web design & development studio.",
@@ -30,11 +30,11 @@ export const metadata: Metadata = {
     "SEO",
   ],
   openGraph: {
-    title: "ChilliSpark | Websites that win customers",
+    title: "Chillispark | Websites that win customers",
     description:
       "Fast, modern, affordable websites that help local businesses grow.",
     url: SITE_URL,
-    siteName: "ChilliSpark",
+    siteName: "Chillispark",
     locale: "en_IN",
     type: "website",
   },

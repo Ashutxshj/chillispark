@@ -70,7 +70,7 @@ export default function WhyChoose() {
               <h2
                 className={`${oswald.className} font-bold uppercase text-white text-[clamp(38px,5vw,62px)] leading-[.96] tracking-[.5px] m-0 text-balance`}
               >
-                Why choose ChilliSpark?
+                Why choose Chillispark?
               </h2>
               <p className="text-white/80 text-[clamp(15px,1.5vw,18px)] leading-[1.6] mt-[22px] mb-0 max-w-[440px]">
                 Benefits your customers feel, not features you have to

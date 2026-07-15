@@ -37,7 +37,7 @@ export default function Hero() {
                   >
                     <Image
                       src={`/testimonials/${a}.png`}
-                      alt="Happy ChilliSpark client"
+                      alt="Happy Chillispark client"
                       fill
                       sizes="42px"
                       className="object-cover"

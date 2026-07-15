@@ -4,7 +4,7 @@ import ContactBlock from "@/components/ContactBlock";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Tell us about your business and get ideas, a timeline and a clear quote for your new website. Call, WhatsApp or email ChilliSpark.",
+    "Tell us about your business and get ideas, a timeline and a clear quote for your new website. Call, WhatsApp or email Chillispark.",
 };
 
 export default function ContactPage() {

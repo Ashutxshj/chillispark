@@ -6,14 +6,14 @@ import { values } from "@/lib/data";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "ChilliSpark is a Delhi-based web design and development studio helping local businesses win online with fast, modern, affordable websites.",
+    "Chillispark is a Delhi-based web design and development studio helping local businesses win online with fast, modern, affordable websites.",
 };
 
 export default function AboutPage() {
   return (
     <main>
       <PageHero
-        badge="About ChilliSpark"
+        badge="About Chillispark"
         title={
           <>
             We help local
@@ -21,7 +21,7 @@ export default function AboutPage() {
             businesses win online.
           </>
         }
-        text="ChilliSpark is a Delhi-based web design and development studio. We build fast, modern, affordable websites that give small businesses a professional presence they own, not just another social profile."
+        text="Chillispark is a Delhi-based web design and development studio. We build fast, modern, affordable websites that give small businesses a professional presence they own, not just another social profile."
       />
       <section className="bg-white py-[90px]">
         <div className="max-w-[1000px] mx-auto px-[26px] grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-12">
@@ -30,7 +30,7 @@ export default function AboutPage() {
               Our story
             </h2>
             <p className="text-[#5A5A66] text-[16.5px] leading-[1.65] mt-0 mb-4">
-              We started ChilliSpark because too many great local businesses,
+              We started Chillispark because too many great local businesses,
               like dentists, clinics, restaurants and salons, were losing
               customers to competitors with better websites, or to marketplaces
               that own the relationship.
