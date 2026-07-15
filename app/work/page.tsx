@@ -9,7 +9,7 @@ import { portfolio } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Our Work",
   description:
-    "Selected projects by Chillispark: Ekosight agritech, AuraKeebs keyboard store, CoverLe document tool, Kinetic sneaker store and Muskara perfumery, built to load fast and convert.",
+    "Selected projects by Chillispark: Ekosight agritech, NovaKeebs keyboard store, Draftly document tool, Strydr sneaker store and Ittra perfumery, built to load fast and convert.",
 };
 
 export default function WorkPage() {
