@@ -47,48 +47,60 @@ export default function WorkPage() {
               </div>
 
               {/* main screenshot */}
-              <div className="cs-card border border-[#E9E9F0] rounded-[22px] overflow-hidden bg-white shadow-[0_24px_60px_rgba(15,15,30,.1)]">
+              <a
+                href={pf.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Visit ${pf.name} live site`}
+                className="group block cursor-pointer cs-card border border-[#E9E9F0] rounded-[22px] overflow-hidden bg-white shadow-[0_24px_60px_rgba(15,15,30,.1)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_32px_72px_rgba(15,15,30,.16)] no-underline"
+              >
                 <div className="flex items-center gap-2 px-5 py-3.5 bg-ink">
                   <BrowserDots size={10} />
                   <span className="ml-3 text-[#8A8A96] text-[13px] bg-[#1C1C22] px-4 py-1.5 rounded-lg">
                     {pf.domain}
                   </span>
                 </div>
-                <div className="relative w-full aspect-[16/8] bg-[#F1F1F6]">
+                <div className="relative w-full aspect-[16/8] bg-[#F1F1F6] overflow-hidden">
                   <Image
                     src={pf.image}
                     alt={`${pf.name} website`}
                     fill
                     priority={idx === 0}
                     sizes="(max-width: 1120px) 100vw, 1068px"
-                    className="object-cover object-top"
+                    className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
                   />
                 </div>
-              </div>
+              </a>
 
               {/* gallery */}
               <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-5 mt-6">
                 {pf.shots.map((shot) => (
-                  <figure
+                  <a
                     key={shot.src}
-                    className="cs-card m-0 border border-[#E9E9F0] rounded-2xl overflow-hidden bg-white shadow-[0_12px_30px_rgba(15,15,30,.05)]"
+                    href={pf.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Visit ${pf.name} live site`}
+                    className="group block no-underline"
                   >
-                    <div className="flex items-center gap-1.5 px-3 py-2.5 bg-[#F6F6F9] border-b border-[#EEE]">
-                      <BrowserDots size={8} />
-                    </div>
-                    <div className="relative w-full aspect-[16/10] bg-[#F1F1F6]">
-                      <Image
-                        src={shot.src}
-                        alt={`${pf.name}: ${shot.label}`}
-                        fill
-                        sizes="(max-width: 768px) 100vw, 360px"
-                        className="object-cover object-top"
-                      />
-                    </div>
-                    <figcaption className="px-4 py-3 text-[#5A5A66] text-[13.5px] font-medium">
-                      {shot.label}
-                    </figcaption>
-                  </figure>
+                    <figure className="cs-card m-0 border border-[#E9E9F0] rounded-2xl overflow-hidden bg-white shadow-[0_12px_30px_rgba(15,15,30,.05)] transition-transform duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_18px_40px_rgba(15,15,30,.1)]">
+                      <div className="flex items-center gap-1.5 px-3 py-2.5 bg-[#F6F6F9] border-b border-[#EEE]">
+                        <BrowserDots size={8} />
+                      </div>
+                      <div className="relative w-full aspect-[16/10] bg-[#F1F1F6] overflow-hidden">
+                        <Image
+                          src={shot.src}
+                          alt={`${pf.name}: ${shot.label}`}
+                          fill
+                          sizes="(max-width: 768px) 100vw, 360px"
+                          className="object-cover object-top transition-transform duration-500 group-hover:scale-[1.02]"
+                        />
+                      </div>
+                      <figcaption className="px-4 py-3 text-[#5A5A66] text-[13.5px] font-medium">
+                        {shot.label}
+                      </figcaption>
+                    </figure>
+                  </a>
                 ))}
               </div>
             </article>

@@ -84,6 +84,7 @@ export type PortfolioItem = {
   type: string;
   name: string;
   domain: string;
+  url: string;
   result: string;
   image: string;
   shots: { src: string; label: string }[];
@@ -95,6 +96,7 @@ export const portfolio: PortfolioItem[] = [
     type: "AgriTech Platform",
     name: "Ekosight",
     domain: "ekosight.com",
+    url: "https://ekosight.com/",
     result:
       "Farmer-first agritech platform with crop guidance, soil nutrients and an online shop, built to make farming easy and profitable.",
     image: "/work/ekosight-hero.png",
@@ -113,6 +115,7 @@ export const portfolio: PortfolioItem[] = [
     type: "E-commerce Store",
     name: "NovaKeebs",
     domain: "novakeebs.com",
+    url: "https://project1-psi-silk.vercel.app/",
     result:
       "A premium mechanical-keyboard store with an interactive switch-acoustics tester, live customizer and a filterable catalogue that makes enthusiast hardware effortless to browse and buy.",
     image: "/work/novakeebs-hero.png",
@@ -126,6 +129,7 @@ export const portfolio: PortfolioItem[] = [
     type: "SaaS Web App",
     name: "Draftly",
     domain: "draftly.app",
+    url: "https://project2-mu-five.vercel.app/",
     result:
       "A free student tool that turns academic formatting into a thirty-second task, fill a form, preview live and export watermark-free PDFs for assignments, resumes, certificates and theses.",
     image: "/work/draftly-tools.png",
@@ -139,6 +143,7 @@ export const portfolio: PortfolioItem[] = [
     type: "E-commerce Store",
     name: "Strydr",
     domain: "strydr.store",
+    url: "https://project3-seven-omega.vercel.app/",
     result:
       "A bold, motion-driven sneaker and streetwear store with cinematic product storytelling, shop-by-category browsing and a fast, conversion-focused new-arrivals flow.",
     image: "/work/strydr-hero.png",
@@ -152,6 +157,7 @@ export const portfolio: PortfolioItem[] = [
     type: "Luxury E-commerce",
     name: "Ittra",
     domain: "ittra.in",
+    url: "https://project4-three-gules.vercel.app/",
     result:
       "A niche Indian perfumery with a five-question scent finder, mood-based shopping and a transparent sourcing ledger showing batch codes, harvest dates and origins for every fragrance.",
     image: "/work/ittra-hero.png",
